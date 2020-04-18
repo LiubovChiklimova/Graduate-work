@@ -20,3 +20,9 @@
     letter-spacing: 1px;
 }
 
+#header{
+    background-image: url(../../export/header2.png);
+    background-size: cover;
+    
+
+}
