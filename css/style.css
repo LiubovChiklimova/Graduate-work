@@ -101,7 +101,7 @@ h1 {
     color: #00897b;
 }
 
-#About_us{
+#About_us {
     height: 638px;
     padding-top: 115px;
 }
@@ -117,7 +117,8 @@ h2 {
     padding-bottom: 33px;
 }
 
-.about-text, .about-item-text {
+.about-text,
+.about-item-text {
     font-family: Open Sans Regular;
     font-size: 14px;
     letter-spacing: 0.75px;
@@ -125,23 +126,26 @@ h2 {
 
 }
 
-.about-text{
+.about-text {
     padding-bottom: 118px;
 }
 
-.about-items{
+.about-items {
     text-align: center;
     line-height: 0.8;
 }
 
-.about-item{
+.about-item {
     font-family: Open Sans SemiBold;
     font-size: 19px;
     letter-spacing: 1px;
     padding-bottom: 18px;
 }
 
-.about_img{
+.about_img {
     padding-bottom: 39px;
 }
 
+.about_img img {
+    height: 60px;
+}
