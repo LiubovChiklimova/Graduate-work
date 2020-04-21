@@ -17,7 +17,7 @@
 
 .nav-item {
     font-family: Open Sans SemiBold;
-    color:  #212121;
+    color: #212121;
     font-size: 19px;
     letter-spacing: 1px;
 }
@@ -25,7 +25,8 @@
 .nav-link {
     color: #212121 !important;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #00897b !important;
 }
 
@@ -42,20 +43,20 @@ h1 {
 
     margin-bottom: 24px;
     font-family: Open Sans SemiBold;
-    ;
     font-size: 57px;
     letter-spacing: 3px;
     line-height: 1.28;
 }
 
-p {
+#head-text {
     font-family: Open Sans Regular;
     font-size: 21px;
     margin-bottom: 102px;
     line-height: 1.28;
+    letter-spacing: 1.1px;
 }
 
-.top_button{
+.top_button {
     padding-bottom: 92px;
 }
 
@@ -76,24 +77,71 @@ p {
     text-decoration: none;
     background: #00897b;
     border: 3px solid #00897b;
-  }
+}
 
-#top1{
+#top1 {
     margin-right: 12px;
 }
-#top2{
+
+#top2 {
     margin-left: 12px;
 }
 
-.fa-angle-down{
+.fa-angle-down {
     font-size: 35px;
     padding: 0 0 0 18px;
     line-height: 0.45;
 }
 
-.btn_down{
+.btn_down {
     color: white;
 }
-.btn_down:hover{
+
+.btn_down:hover {
     color: #00897b;
 }
+
+#About_us{
+    height: 638px;
+    padding-top: 115px;
+}
+
+h2 {
+
+    margin-bottom: 33px;
+    font-family: Open Sans Bold;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    line-height: 0.8;
+    margin: 0;
+    padding-bottom: 33px;
+}
+
+.about-text, .about-item-text {
+    font-family: Open Sans Regular;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    line-height: 1.15;
+
+}
+
+.about-text{
+    padding-bottom: 118px;
+}
+
+.about-items{
+    text-align: center;
+    line-height: 0.8;
+}
+
+.about-item{
+    font-family: Open Sans SemiBold;
+    font-size: 19px;
+    letter-spacing: 1px;
+    padding-bottom: 18px;
+}
+
+.about_img{
+    padding-bottom: 39px;
+}
+
