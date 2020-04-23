@@ -283,3 +283,87 @@ h2 {
     margin: auto;
     width: 247px;
 }
+
+#Form {
+    padding-left: 65px;
+    padding-right: 66px;
+    padding-top: 74px;
+
+}
+
+#flex-form {
+    display: flex;
+}
+
+#name {
+    width: 475px;
+    height: 80px;
+    border: none;
+    border-radius: 9px;
+    background-color: #ffffff;
+    font-family: Open Sans SemiBold;
+    color: #212121;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-right: 29px;
+}
+
+#email {
+    width: 475px;
+    height: 80px;
+    border: none;
+    border-radius: 9px;
+    background-color: #ffffff;
+    font-family: Open Sans SemiBold;
+    color: #212121;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+input {
+    padding: 33px 0 33px 20px;
+}
+
+textarea {
+    padding-top: 27px;
+    padding-left: 19px;
+}
+
+#message {
+    margin-top: 31px;
+    width: 979px;
+    height: 307px;
+    border: none;
+    border-radius: 9px;
+    background-color: #ffffff;
+    font-family: Open Sans SemiBold;
+    color: #212121;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+#send {
+
+    width: 210px;
+    height: 67px;
+    border: none;
+    border-radius: 9px;
+    background-color: #ffffff;
+    color: #212121;
+    font-family: Roboto Bold;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-top: 36px;
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+}
+
+#foot{
+    height: 56px;
+    line-height: 56px;
+    color: #212121;
+    font-family: Roboto Bold;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
