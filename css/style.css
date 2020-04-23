@@ -105,7 +105,6 @@ h1 {
 
 h2 {
 
-    margin-bottom: 33px;
     font-family: Open Sans Bold;
     font-size: 28px;
     letter-spacing: 1.5px;
@@ -232,6 +231,55 @@ h2 {
     color: white;
 }
 
-.service-items1{
+.service-items1 {
     padding-bottom: 28px;
+}
+
+#Contact_us {
+    height: 1191px;
+    background-image: url(../img/contact.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#contact-header {
+    color: white;
+    padding-top: 120px;
+}
+
+.contact-text {
+    color: white;
+    font-family: Open Sans Regular;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    padding-bottom: 95px;
+}
+
+.contact_img {
+    margin: auto;
+    width: 103px;
+    height: 102px;
+    margin-bottom: 33px;
+}
+
+.contact-item-text {
+    font-family: Open Sans SemiBold;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+#adress {
+    margin: auto;
+    width: 237px;
+}
+
+#phone {
+    margin: auto;
+    width: 164px;
+}
+
+#mail {
+    margin: auto;
+    width: 247px;
 }
