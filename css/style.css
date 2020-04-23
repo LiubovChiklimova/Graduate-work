@@ -51,7 +51,7 @@ h1 {
     font-family: Open Sans Regular;
     font-size: 21px;
     margin-bottom: 102px;
-    line-height: 1.28;
+
     letter-spacing: 1.1px;
 }
 
@@ -60,14 +60,14 @@ h1 {
 }
 
 .top {
+    width: 209px;
     color: white;
     border: 3px solid #f8f8f8;
     border-color: white;
     font-family: Roboto Bold;
     font-size: 19px;
-    padding: 22px 30px 23px 30px;
+    padding: 16.5px 30px 16.5px 30px;
     border-radius: 0;
-    line-height: 0.8;
     letter-spacing: 1px;
 }
 
@@ -88,8 +88,6 @@ h1 {
 
 .fa-angle-down {
     font-size: 35px;
-    padding: 0 0 0 18px;
-    line-height: 0.45;
 }
 
 .btn_down {
@@ -100,7 +98,7 @@ h1 {
     color: #00897b;
 }
 
-#About_us{
+#About_us {
     height: 638px;
     padding-top: 115px;
 }
@@ -111,36 +109,44 @@ h2 {
     font-family: Open Sans Bold;
     font-size: 28px;
     letter-spacing: 1.5px;
-    line-height: 0.8;
     margin: 0;
     padding-bottom: 33px;
 }
 
-.about-text, .about-item-text {
+.about-text,
+.about-item-text {
     font-family: Open Sans Regular;
     font-size: 14px;
     letter-spacing: 0.75px;
-    line-height: 1.15;
 
 }
 
-.about-text{
+.about-text {
     padding-bottom: 118px;
 }
 
-.about-items{
+.about-items {
     text-align: center;
-    line-height: 0.8;
 }
 
-.about-item{
+.about-item {
     font-family: Open Sans SemiBold;
     font-size: 19px;
     letter-spacing: 1px;
     padding-bottom: 18px;
 }
 
-.about_img{
+.about_img {
     padding-bottom: 39px;
 }
 
+.about_img img{
+    height: 60px;
+}
+
+
+.about-item-text {
+    margin: 0 auto;
+    width: 242px;
+
+}
