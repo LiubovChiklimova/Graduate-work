@@ -140,7 +140,7 @@ h2 {
     padding-bottom: 39px;
 }
 
-.about_img img{
+.about_img img {
     height: 60px;
 }
 
@@ -149,4 +149,89 @@ h2 {
     margin: 0 auto;
     width: 242px;
 
+}
+
+#Our_services {
+    height: 1342px;
+    background-color: #e4fdf9;
+    padding-top: 161px;
+
+}
+
+.service-text {
+    font-family: Open Sans Regular;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    padding-bottom: 102px;
+
+}
+
+.service-item {
+    /* width: 352px;
+    height: 417px; */
+    background-color: white;
+    padding-top: 56px;
+}
+
+.service_img {
+    margin: auto;
+    width: 55px;
+    height: 59px;
+    background: url(../img/icons/smartphone.png);
+    margin-bottom: 32px;
+}
+
+.service-header {
+    font-family: Open Sans SemiBold;
+    color: #212121;
+    font-size: 19px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.service-items-text {
+    margin: 0 auto;
+    width: 258px;
+    font-family: Open Sans Regular;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+}
+
+.service-button {
+    padding-top: 41px;
+    padding-bottom: 46px;
+}
+
+.service-btn {
+    border-radius: 0;
+    border: 2px solid #212121;
+    padding: 14px 20px 14px 20px;
+    letter-spacing: 1px;
+    font-family: Open Sans SemiBold;
+    color: #212121;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+
+.service-item:hover {
+    background-color: #00897b;
+}
+
+.service_img:hover {
+    background: url(../img/icons/smartphone2.png);
+}
+
+.service-header:hover,
+.service-items-text:hover {
+    color: white;
+}
+
+.service-btn:hover {
+    border: 2px solid white;
+    color: white;
+}
+
+.service-items1{
+    padding-bottom: 28px;
 }
