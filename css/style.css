@@ -367,3 +367,8 @@ textarea {
     font-size: 19px;
     letter-spacing: 1px;
 }
+
+
+.btn {
+    cursor: url(../img/point.png), pointer !important;
+}
