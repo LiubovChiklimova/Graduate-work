@@ -212,22 +212,98 @@ h2 {
     letter-spacing: 1px;
 }
 
-
-.service-item:hover {
-    background-color: #00897b;
-}
-
-.service_img:hover {
-    background: url(../img/icons/smartphone2.png);
-}
-
-.service-header:hover,
-.service-items-text:hover {
+.service-btn:hover {
+    border: 2px solid white;
     color: white;
 }
 
-.service-btn:hover {
-    border: 2px solid white;
+.research1:hover {
+    background-color: #00897b;
+}
+.research1:hover > .research2 {
+    background: url(../img/icons/smartphone2.png);
+}
+.research1:hover > .research3
+{
+    color: white;
+}
+.research1:hover > .research4
+{
+    color: white;
+}
+
+.portf1:hover {
+    background-color: #00897b;
+}
+.portf1:hover > .portf2 {
+    background: url(../img/icons/smartphone2.png);
+}
+.portf1:hover > .portf3
+{
+    color: white;
+}
+.portf1:hover > .portf4
+{
+    color: white;
+}
+
+.sup1:hover {
+    background-color: #00897b;
+}
+.sup1:hover > .sup2 {
+    background: url(../img/icons/smartphone2.png);
+}
+.sup1:hover > .sup3
+{
+    color: white;
+}
+.sup1:hover > .sup4
+{
+    color: white;
+}
+
+.doc1:hover {
+    background-color: #00897b;
+}
+.doc1:hover > .doc2 {
+    background: url(../img/icons/smartphone2.png);
+}
+.doc1:hover > .doc3
+{
+    color: white;
+}
+.doc1:hover > .doc4
+{
+    color: white;
+}
+
+.dev1:hover {
+    background-color: #00897b;
+}
+.dev1:hover > .dev2 {
+    background: url(../img/icons/smartphone2.png);
+}
+.dev1:hover > .dev3
+{
+    color: white;
+}
+.dev1:hover > .dev4
+{
+    color: white;
+}
+
+.des1:hover {
+    background-color: #00897b;
+}
+.des1:hover > .des2 {
+    background: url(../img/icons/smartphone2.png);
+}
+.des1:hover > .des3
+{
+    color: white;
+}
+.des1:hover > .des4
+{
     color: white;
 }
 
