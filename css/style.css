@@ -20,6 +20,8 @@
     color: #212121;
     font-size: 19px;
     letter-spacing: 1px;
+    padding-right: 6px;
+    padding-left: 6px;
 }
 
 .nav-link {
