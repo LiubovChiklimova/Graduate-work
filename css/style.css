@@ -73,6 +73,14 @@ h1 {
     letter-spacing: 1px;
 }
 
+.btn-text{
+    color: white !important;
+}
+
+.btn-text:hover {
+    text-decoration: none !important;
+}
+
 .top:hover {
     color: white;
     text-decoration: none;

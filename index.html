@@ -33,7 +33,7 @@
               <a class="nav-link js-scroll-trigger" href="#About_us">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#Our_services">Servicing</a>
+              <a class="nav-link js-scroll-trigger" href="#Our_services">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#">Portfolio</a>
@@ -62,8 +62,10 @@
         </div>
         <div class="row">
           <div class="col-6 text-center mx-auto top_button">
-            <button type="button" class="btn btn-outline top" id="top1">OUR SERVICES</button>
-            <button type="button" class="btn btn-outline top" id="top2">HIRE IS NOW</button>
+            <button type="button" class="btn btn-outline top" id="top1"> <a class="js-scroll-trigger btn-text"
+                href="#Our_services">OUR SERVICES</a></button>
+            <button type="button" class="btn btn-outline top" id="top2"><a class="js-scroll-trigger btn-text"
+              href="#Contact_us">HIRE IS NOW</a></button></button>
           </div>
         </div>
 
@@ -313,21 +315,21 @@
 
     <div class="container">
 
-    <div class="mx-auto" id="Form">
-      <div id="flex-form">
-        <div>
-          <input type="text" placeholder="Your NAME" id="name">
+      <div class="mx-auto" id="Form">
+        <div id="flex-form">
+          <div>
+            <input type="text" placeholder="Your NAME" id="name">
+          </div>
+          <div>
+            <input type="text" placeholder="Your Email" id="email">
+          </div>
         </div>
         <div>
-          <input type="text" placeholder="Your Email" id="email">
+          <textarea placeholder="Write Message" id="message"></textarea>
         </div>
+        <button type="button" id="send">SEND</button>
       </div>
-      <div>
-        <textarea placeholder="Write Message" id="message"></textarea>
-      </div>
-      <button type="button" id="send">SEND</button>
     </div>
-  </div>
 
 
 
