@@ -117,17 +117,18 @@ h1 {
     margin-left: 12px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 
     #top1,
     #top2 {
         margin: 0;
     }
 
-    #top1{
+    #top1 {
         margin-bottom: 7.5px;
     }
-    #top2{
+
+    #top2 {
         margin-top: 7.5px;
     }
 }
@@ -203,6 +204,7 @@ h2 {
 
 }
 
+
 #Our_services {
     background-color: #e4fdf9;
     padding-top: 161px;
@@ -246,6 +248,13 @@ h2 {
     font-family: Open Sans Regular;
     font-size: 14px;
     letter-spacing: 0.75px;
+}
+
+@media (max-width: 992px) {
+    .service-items-text {
+        width: auto;
+        padding: 0 10px 0 10px;
+    }
 }
 
 .service-button {
@@ -444,8 +453,6 @@ h2 {
 }
 
 #Form {
-    /* padding-left: 65px;
-    padding-right: 66px; */
     padding-top: 74px;
 
 }
@@ -469,12 +476,16 @@ h2 {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     #name {
-        width: 400px;
+        width: 450.5px;
     }
 }
-
+@media (max-width: 991px) {
+    #name {
+        width: 330.5px;
+    }
+}
 
 #email {
     width: 475px;
@@ -488,14 +499,26 @@ h2 {
     letter-spacing: 1px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     #email {
-        width: 400px;
+        width: 450.5px;
+    }
+}
+
+@media (max-width: 1199px) {
+    #email {
+        width: 330.5px;
     }
 }
 
 input {
     padding: 33px 0 33px 20px;
+}
+
+.mes_send {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 textarea {
@@ -518,7 +541,6 @@ textarea {
 
 @media (max-width: 1200px) {
     #message {
-        width: 829px;
         height: 200px;
     }
 }
@@ -535,9 +557,6 @@ textarea {
     font-size: 19px;
     letter-spacing: 1px;
     margin-top: 36px;
-    display: flex;
-    margin-left: auto;
-    justify-content: center;
 }
 
 #foot {
