@@ -213,11 +213,6 @@ h2 {
     letter-spacing: 1px;
 }
 
-.service-btn:hover {
-    border: 2px solid white;
-    color: white;
-}
-
 .research1:hover {
     background-color: #00897b;
 }
@@ -231,6 +226,11 @@ h2 {
 }
 
 .research1:hover>.research4 {
+    color: white;
+}
+
+.research1:hover .research5 {
+    border: 2px solid white;
     color: white;
 }
 
@@ -250,6 +250,11 @@ h2 {
     color: white;
 }
 
+.portf1:hover .portf5 {
+    border: 2px solid white;
+    color: white;
+}
+
 .sup1:hover {
     background-color: #00897b;
 }
@@ -263,6 +268,11 @@ h2 {
 }
 
 .sup1:hover>.sup4 {
+    color: white;
+}
+
+.sup1:hover .sup5 {
+    border: 2px solid white;
     color: white;
 }
 
@@ -282,6 +292,11 @@ h2 {
     color: white;
 }
 
+.doc1:hover .doc5 {
+    border: 2px solid white;
+    color: white;
+}
+
 .dev1:hover {
     background-color: #00897b;
 }
@@ -298,6 +313,11 @@ h2 {
     color: white;
 }
 
+.dev1:hover .dev5 {
+    border: 2px solid white;
+    color: white;
+}
+
 .des1:hover {
     background-color: #00897b;
 }
@@ -311,6 +331,11 @@ h2 {
 }
 
 .des1:hover>.des4 {
+    color: white;
+}
+
+.des1:hover .des5 {
+    border: 2px solid white;
     color: white;
 }
 
