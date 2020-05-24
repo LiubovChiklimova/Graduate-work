@@ -8,6 +8,20 @@
 
 }
 
+@media (max-width: 768px) {
+    #mainNav {
+        padding: 20px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        margin: 0 !important;
+    }
+}
+
+
 
 .navbar-brand {
     font-family: Open Sans Bold;
@@ -38,6 +52,12 @@ header {
     background-image: url(../img/header2.png);
     background-size: cover;
     background-position: center;
+}
+
+@media (max-width: 992px) {
+    header {
+        height: auto;
+    }
 }
 
 
@@ -74,7 +94,7 @@ h1 {
     letter-spacing: 1px;
 }
 
-.btn-text{
+.btn-text {
     color: white !important;
 }
 
@@ -97,9 +117,31 @@ h1 {
     margin-left: 12px;
 }
 
+@media (max-width: 992px) {
+
+    #top1,
+    #top2 {
+        margin: 0;
+    }
+
+    #top1{
+        margin-bottom: 7.5px;
+    }
+    #top2{
+        margin-top: 7.5px;
+    }
+}
+
 .fa-angle-down {
     font-size: 35px;
 }
+
+@media (max-width: 992px) {
+    .fa-angle-down {
+        padding-bottom: 10px;
+    }
+}
+
 
 .btn_down {
     color: white;
@@ -402,14 +444,15 @@ h2 {
 }
 
 #Form {
-    padding-left: 65px;
-    padding-right: 66px;
+    /* padding-left: 65px;
+    padding-right: 66px; */
     padding-top: 74px;
 
 }
 
 #flex-form {
     display: flex;
+    justify-content: center;
 }
 
 #name {
@@ -425,6 +468,14 @@ h2 {
     margin-right: 29px;
 }
 
+
+@media (max-width: 1200px) {
+    #name {
+        width: 400px;
+    }
+}
+
+
 #email {
     width: 475px;
     height: 80px;
@@ -435,6 +486,12 @@ h2 {
     color: #212121;
     font-size: 19px;
     letter-spacing: 1px;
+}
+
+@media (max-width: 1200px) {
+    #email {
+        width: 400px;
+    }
 }
 
 input {
@@ -457,6 +514,13 @@ textarea {
     color: #212121;
     font-size: 19px;
     letter-spacing: 1px;
+}
+
+@media (max-width: 1200px) {
+    #message {
+        width: 829px;
+        height: 200px;
+    }
 }
 
 #send {
