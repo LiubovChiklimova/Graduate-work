@@ -432,7 +432,7 @@ h2 {
 
 .contact-item-text {
     font-family: Open Sans SemiBold;
-    color: white;
+    color: white !important;
     font-size: 19px;
     letter-spacing: 1px;
 }
@@ -442,14 +442,37 @@ h2 {
     width: 237px;
 }
 
+@media (max-width: 991px) {
+    #adress {
+        width: auto;
+        font-size: 16px;
+    }
+}
+
 #phone {
     margin: auto;
     width: 164px;
 }
 
+@media (max-width: 991px) {
+    #phone {
+        width: auto;
+        font-size: 16px;
+    }
+}
+
+
+
 #mail {
     margin: auto;
     width: 247px;
+}
+
+@media (max-width: 991px) {
+    #mail {
+        width: auto;
+        font-size: 16px;
+    }
 }
 
 #Form {
@@ -570,5 +593,8 @@ textarea {
 
 
 .btn {
+    cursor: url(../img/point.png), pointer !important;
+}
+a {
     cursor: url(../img/point.png), pointer !important;
 }
