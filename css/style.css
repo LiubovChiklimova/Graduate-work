@@ -204,6 +204,12 @@ h2 {
 
 }
 
+@media (max-width: 991px) {
+    .about-item-text {
+        width: auto;
+    }
+}
+
 
 #Our_services {
     background-color: #e4fdf9;
@@ -437,6 +443,12 @@ h2 {
     letter-spacing: 1px;
 }
 
+@media (max-width: 991px) {
+    .contact-item-text {
+        font-size: 16px;
+    }
+}
+
 #adress {
     margin: auto;
     width: 237px;
@@ -445,7 +457,6 @@ h2 {
 @media (max-width: 991px) {
     #adress {
         width: auto;
-        font-size: 16px;
     }
 }
 
@@ -457,11 +468,8 @@ h2 {
 @media (max-width: 991px) {
     #phone {
         width: auto;
-        font-size: 16px;
     }
 }
-
-
 
 #mail {
     margin: auto;
@@ -471,7 +479,6 @@ h2 {
 @media (max-width: 991px) {
     #mail {
         width: auto;
-        font-size: 16px;
     }
 }
 
@@ -504,6 +511,7 @@ h2 {
         width: 450.5px;
     }
 }
+
 @media (max-width: 991px) {
     #name {
         width: 330.5px;
@@ -595,6 +603,7 @@ textarea {
 .btn {
     cursor: url(../img/point.png), pointer !important;
 }
+
 a {
     cursor: url(../img/point.png), pointer !important;
 }
