@@ -304,7 +304,9 @@ h2 {
 }
 
 .research1:hover {
-    background-color: #00897b;
+    background: #00897b;
+    box-shadow: 9px 9px 16px rgba(0,0,0, .3);
+    transition: all .2s linear;
 }
 
 .research1:hover>.research2 {
@@ -325,7 +327,9 @@ h2 {
 }
 
 .portf1:hover {
-    background-color: #00897b;
+    background: #00897b;
+    box-shadow: 9px 9px 16px rgba(0,0,0, .3);
+    transition: all .2s linear;
 }
 
 .portf1:hover>.portf2 {
@@ -346,7 +350,9 @@ h2 {
 }
 
 .sup1:hover {
-    background-color: #00897b;
+    background: #00897b;
+    box-shadow: 9px 9px 16px rgba(0,0,0, .3);
+    transition: all .2s linear;
 }
 
 .sup1:hover>.sup2 {
@@ -367,7 +373,9 @@ h2 {
 }
 
 .doc1:hover {
-    background-color: #00897b;
+    background: #00897b;
+    box-shadow: 9px 9px 16px rgba(0,0,0, .3);
+    transition: all .2s linear;
 }
 
 .doc1:hover>.doc2 {
@@ -388,7 +396,9 @@ h2 {
 }
 
 .dev1:hover {
-    background-color: #00897b;
+    background: #00897b;
+    box-shadow: 9px 9px 16px rgba(0,0,0, .3);
+    transition: all .2s linear;
 }
 
 .dev1:hover>.dev2 {
@@ -409,7 +419,9 @@ h2 {
 }
 
 .des1:hover {
-    background-color: #00897b;
+    background: #00897b;
+    box-shadow: 9px 9px 16px rgba(0,0,0, .3);
+    transition: all .2s linear;
 }
 
 .des1:hover>.des2 {
