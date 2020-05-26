@@ -210,6 +210,20 @@ h2 {
     }
 }
 
+@media (max-width: 767px) {
+    .about-item-text {
+        width: 242px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .one,
+    .two {
+        padding-bottom: 50px;
+        ;
+    }
+}
 
 #Our_services {
     background-color: #e4fdf9;
@@ -226,10 +240,14 @@ h2 {
 }
 
 .service-item {
-    /* width: 352px;
-    height: 417px; */
     background-color: white;
     padding-top: 56px;
+}
+
+@media (max-width: 767px) {
+    .service-item {
+        margin-bottom: 30px;
+    }
 }
 
 .service_img {
@@ -260,6 +278,12 @@ h2 {
     .service-items-text {
         width: auto;
         padding: 0 10px 0 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .service-items-text {
+        width: 258px;
     }
 }
 
@@ -416,6 +440,13 @@ h2 {
     background-position: center;
 }
 
+@media (max-width: 767px) {
+    #Contact_us {
+        height: auto;
+        padding-bottom: 50px;
+    }
+}
+
 #contact-header {
     color: white;
     padding-top: 120px;
@@ -460,6 +491,13 @@ h2 {
     }
 }
 
+@media (max-width: 767px) {
+    #adress {
+        width: 237px;
+        margin-bottom: 30px;
+    }
+}
+
 #phone {
     margin: auto;
     width: 164px;
@@ -468,6 +506,12 @@ h2 {
 @media (max-width: 991px) {
     #phone {
         width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    #phone {
+        margin-bottom: 30px;
     }
 }
 
@@ -518,6 +562,12 @@ h2 {
     }
 }
 
+@media (max-width: 767px) {
+    #name {
+        width: 240.5px;
+    }
+}
+
 #email {
     width: 475px;
     height: 80px;
@@ -536,9 +586,15 @@ h2 {
     }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 991px) {
     #email {
         width: 330.5px;
+    }
+}
+
+@media (max-width: 767px) {
+    #email {
+        width: 240.5px;
     }
 }
 
@@ -601,9 +657,5 @@ textarea {
 
 
 .btn {
-    cursor: url(../img/point.png), pointer !important;
-}
-
-a {
     cursor: url(../img/point.png), pointer !important;
 }
