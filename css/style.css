@@ -70,6 +70,12 @@ h1 {
     line-height: 1.28;
 }
 
+@media (max-width: 575px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
 #head-text {
     font-family: Open Sans Regular;
     font-size: 21px;
@@ -305,7 +311,7 @@ h2 {
 
 .research1:hover {
     background: #00897b;
-    box-shadow: 9px 9px 16px rgba(0,0,0, .3);
+    box-shadow: 9px 9px 16px rgba(0, 0, 0, .3);
     transition: all .2s linear;
 }
 
@@ -328,7 +334,7 @@ h2 {
 
 .portf1:hover {
     background: #00897b;
-    box-shadow: 9px 9px 16px rgba(0,0,0, .3);
+    box-shadow: 9px 9px 16px rgba(0, 0, 0, .3);
     transition: all .2s linear;
 }
 
@@ -351,7 +357,7 @@ h2 {
 
 .sup1:hover {
     background: #00897b;
-    box-shadow: 9px 9px 16px rgba(0,0,0, .3);
+    box-shadow: 9px 9px 16px rgba(0, 0, 0, .3);
     transition: all .2s linear;
 }
 
@@ -374,7 +380,7 @@ h2 {
 
 .doc1:hover {
     background: #00897b;
-    box-shadow: 9px 9px 16px rgba(0,0,0, .3);
+    box-shadow: 9px 9px 16px rgba(0, 0, 0, .3);
     transition: all .2s linear;
 }
 
@@ -397,7 +403,7 @@ h2 {
 
 .dev1:hover {
     background: #00897b;
-    box-shadow: 9px 9px 16px rgba(0,0,0, .3);
+    box-shadow: 9px 9px 16px rgba(0, 0, 0, .3);
     transition: all .2s linear;
 }
 
@@ -420,7 +426,7 @@ h2 {
 
 .des1:hover {
     background: #00897b;
-    box-shadow: 9px 9px 16px rgba(0,0,0, .3);
+    box-shadow: 9px 9px 16px rgba(0, 0, 0, .3);
     transition: all .2s linear;
 }
 
@@ -548,6 +554,12 @@ h2 {
     justify-content: center;
 }
 
+@media (max-width: 575px) {
+    #flex-form {
+        display: block;
+    }
+}
+
 #name {
     width: 475px;
     height: 80px;
@@ -580,6 +592,14 @@ h2 {
     }
 }
 
+@media (max-width: 575px) {
+    #name {
+        margin-right: 0px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
 #email {
     width: 475px;
     height: 80px;
@@ -607,6 +627,12 @@ h2 {
 @media (max-width: 767px) {
     #email {
         width: 240.5px;
+    }
+}
+
+@media (max-width: 575px) {
+    #email {
+        width: 100%;
     }
 }
 
